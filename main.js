@@ -8,8 +8,6 @@ let csv = `"Day of Week", "Number of Crashes"
 "Saturday", 15714
  `
 
-//console.log(csv.split('\n'));
-
 /*
 - get keys
 - iterate through csv make line string into array
@@ -47,7 +45,7 @@ function getEntries(csv) {
   return result;
 }
 
-console.log(getEntries(csv));
+console.dir(JSON.stringify(getEntries(csv)));
 
 
 //console.dir(keys)

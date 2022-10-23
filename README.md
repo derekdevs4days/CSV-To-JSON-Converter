@@ -1,5 +1,5 @@
 # CSV to JSON converter
-A program that accepts CSV file to JSON structure.
+A program that accepts CSV file and prints out JSON structure.
 
 **Link to project:** https://###
 
@@ -17,5 +17,5 @@ JSON file syntax.
 
 Flexbox layout.
 
-Imrpove readability. Break down large functions using helper functions.
+Improve readability. Break down large functions using helper functions.
 
