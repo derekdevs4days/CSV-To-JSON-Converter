@@ -8,7 +8,6 @@ body,html {
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  border: 1px dashed red;
   height: 70%;
   width: 100%;
 }
@@ -28,7 +27,6 @@ h1 {
 section {
   box-sizing: border-box;
   display: inline-block;
-  border: 2px dashed red;
   width: 30%;
   height: 60%;
   padding: 1rem;
