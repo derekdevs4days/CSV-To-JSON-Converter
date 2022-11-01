@@ -9,9 +9,8 @@ const jsonTextarea = document.querySelector('#jsonTextarea');
 function handleClick () {
   const userInput = csvTextarea.value
   csv = userInput.trim().split('\n');
-  jsonTextarea.innerHTML = JSON.stringify(getEntries(csv), null, 4);
-  
-  console.dir(JSON.stringify(getEntries(csv),null, 4))
+  let jsontxt = JSON.stringify(getEntries(csv), null, 4);
+  if (jsontxt.length > 2) jsonTextarea.innerHTML = jsontxt;
 }
 
 
